@@ -38,6 +38,9 @@
         transform: translate(-50%, -50%);
         width: 500px;
       }
+      h3{
+        color: rgb(18, 151, 0);
+      }
     </style>
   </head>
   <body>
@@ -69,7 +72,7 @@
               >
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="/practice/contact form/mesages.php"
+              <a class="nav-link" href="https://github.com/madhavyagni/php-contact-form" target="_blank"
                 >Source code <span class="sr-only">(current)</span></a
               >
             </li>
@@ -146,13 +149,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 
 ?>
-    <div class="container grdnt">
+    <div class="container">
       <div class="center">
+        <h3>PHP MySQL Contact form</h3>
       <form
         action="/practice/contact form/index.php"
         method="POST"
         autocomplete="off"
-        class="mt-5"
+        class="mt-3"
       >
         <div class="form-group">
           <label for="name">Name</label>
